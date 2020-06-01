@@ -135,3 +135,64 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+
+@media (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    nav{
+        width: 50%;
+    }
+
+    nav a{
+        font-size: 1rem;
+    }
+
+    .title-container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 3rem;;
+    }
+
+    .artist-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10rem;
+    }
+
+    .artist{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .artist img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+/* 
+    
+    .artist-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* padding: 2rem;
+        width: 50%;
+    } */ 
+
