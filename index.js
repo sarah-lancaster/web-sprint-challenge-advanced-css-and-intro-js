@@ -300,6 +300,8 @@ function addArtist(artists){
   console.log(artists);
   }
 
+  
+
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
     (1) artists array 
