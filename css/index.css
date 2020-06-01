@@ -138,7 +138,7 @@ button:hover{
     width:100%;
 }
 
-/* 
+ 
 @media (max-width: 500px) {
     body {
         flex-direction: column;
@@ -152,30 +152,33 @@ button:hover{
         font-size: 1rem;
     }
 
-    /* .title-container{
+    .title-container{
         width: 100%;
-        height: auto;
+        /* height: auto; */
         margin: 0 auto;
-    } */
-
+    } 
     
+    .title-container div{
+        background-size: 225%;
+        height: 20rem;;
+        margin: 1rem auto;
+        padding: 2rem;
+    }	
 
     h1{
         font-size: 3rem;;
     }
 
-    .artist-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 10rem;
+    button{
+        font-size: 1rem;;
     }
 
-    .artist{
-        justify-content: center;
-        align-items: center;
+    .title-container hr{
         width: 100%;
-        margin: 2rem;
+    }
+
+    .artist-container{
+        flex-direction: column;
     }
 
     .artist img {
@@ -184,19 +187,17 @@ button:hover{
         margin: 0 auto;
     }
 
-} */
+    .artist a{
+        font-size: 1rem;
+    }
+
+    .artist .bio{
+        font-size: 1rem;
+    }
+
+
+}
 
 
 
-
-/* 
-    
-    .artist-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* align-items: center; */
-        /* padding: 2rem;
-        width: 50%;
-    } */ 
 
