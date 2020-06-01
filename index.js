@@ -284,10 +284,20 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should console.log() the new array with information added"*/
 
-function addArtist(/* Code here */){
+const Sarah = [
+  {"id": 21,
+  "name": "Sarah Alice Lancaster",
+    "years": "1987 - Current",
+    "genre": "Web Design",
+    "nationality": "American",
+    "bio": "Sarah loves animals, especially Sasquatch. The best color of all is Pink. She was born in the swamp, but made for the Pacific NW.",
+  }
+]
 
-    /* Code here */
 
+function addArtist(artists){
+  artists.push(Sarah);
+  console.log(artists);
   }
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 

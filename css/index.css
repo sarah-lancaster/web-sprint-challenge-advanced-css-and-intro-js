@@ -1,3 +1,4 @@
+  
 /*CSS RESET*/
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
@@ -13,7 +14,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
 margin: 0;  
-padding: 0;  
+padding: 0;
 border: 0;  
 font-size: 100%;  
 font: inherit;  
@@ -87,8 +88,6 @@ nav span{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 .title-container div {	
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
     background-position: center;	
@@ -136,68 +135,3 @@ button:hover{
 .artist img{
     width:100%;
 }
-
-@media (max-width: 500px) {
-    body {
-        flex-direction: column;
-    }
-    
-    nav{
-        width: 50%;
-    }
-
-    nav a{
-        font-size: 1rem;
-    }
-
-    .title-container{
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    h1{
-        font-size: 3rem;;
-    }
-
-    .artist-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 10rem;
-    }
-
-    .artist{
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin: 2rem;
-    }
-
-    .artist img {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-}
-
-
-
-
-/* 
-
-    
-    .artist-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* align-items: center; */
-        /* padding: 2rem;
-        width: 50%;
-    } */ 
-
-
-
-
-
